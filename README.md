@@ -1,27 +1,19 @@
 # BijbaanWiki
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
+This will be our internal wiki and documentation site.
+Always develop on the develop branch and never change anything on the master branch. Everything on master is auto generated.
 
-## Development server
+# Prerequisites
+1. install angular cli `npm i -g @angular/cli`
+2. install angular github pages (already in project but useful to have global)  `npm i -g angular-cli-ghpages`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Making changes
+Make changes as you would to any angular project everything works exactly the same.
 
-## Code scaffolding
+# Publishing changes
+To publish your changes execute the following commands:
+1. `ng build --prod`
+2. `npx angular-cli-ghpages --dir=dist/bijbaan-wiki --branch=master` 
+3. That's it! your changes should be live on [our site](https://studentportaal.github.io/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Always push to develop!
