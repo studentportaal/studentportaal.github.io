@@ -13,7 +13,7 @@ Make changes as you would to any angular project everything works exactly the sa
 # Publishing changes
 To publish your changes execute the following commands:
 1. `ng build --prod`
-2. `npx angular-cli-ghpages --dir=dist/bijbaan-wiki --branch=master` 
+2. `ngh angular-cli-ghpages --dir=dist/bijbaan-wiki --branch=master` 
 3. That's it! your changes should be live on [our site](https://studentportaal.github.io/)
 
 ## Always push to develop!
