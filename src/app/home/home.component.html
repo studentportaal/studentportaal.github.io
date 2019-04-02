@@ -1,13 +1,80 @@
-<h1>Handige links</h1>
-<mat-list>
-  <mat-list-item><a color="accent" mat-raised-button href="https://github.com/studentportaal">Github repositories<mat-icon aria-hidden="false" svgIcon="thumbs-up"></mat-icon> </a></mat-list-item>
-  <mat-divider></mat-divider>
-  <mat-list-item><a color="accent" mat-raised-button href="https://travis-ci.org/studentportaal">Travis CI</a></mat-list-item>
-  <mat-divider></mat-divider>
-  <mat-list-item><a color="accent" mat-raised-button href="https://codeclimate.com/github/studentportaal/FrontEnd-Bijbaan">Codeclimate Front end</a></mat-list-item>
-  <mat-divider></mat-divider>
-  <mat-list-item><a color="accent" mat-raised-button href="https://codeclimate.com/github/studentportaal/BackEnd-Bijbaan">Codeclimate Back end</a></mat-list-item>
-  <mat-divider></mat-divider>
-  <mat-list-item><a color="accent" mat-raised-button href="https://fhict.instructure.com/groups/60864">Canvas groep</a></mat-list-item>
-  <mat-divider></mat-divider>
- </mat-list>
+<h1>Links</h1>
+<h2>Tooling</h2>
+<mat-grid-list class="grid" cols="2" rowHeight="90px">
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <p class="text-inside-grid">
+      Backlog, user stories and active sprint standings
+    </p>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <a color="accent" mat-raised-button href="http://issues.vaifreecams.com/agiles/100-4/101-6">YouTrack SCURM board</a>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <p class="text-inside-grid">
+      Internal wiki with information about architecture, workstyle, etc.
+    </p>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <a color="accent" mat-raised-button href="https://app.nuclino.com/Bijbaan/Bijbaan">Wiki</a>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <p class="text-inside-grid">
+      Our code
+    </p>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <a color="accent" mat-raised-button href="https://github.com/studentportaal">Github repositories</a>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <p class="text-inside-grid">
+      Build pipeline that runs tests and deploys
+    </p>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <a color="accent" mat-raised-button href="https://travis-ci.org/studentportaal">Travis CI</a> </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <p class="text-inside-grid">
+      Code analysis on our front end
+    </p>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <a color="accent" mat-raised-button
+      href="https://codeclimate.com/github/studentportaal/FrontEnd-Bijbaan">Codeclimate Front end</a>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <p class="text-inside-grid">
+      Code analysis on our back end
+    </p>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <a color="accent" mat-raised-button href="https://codeclimate.com/github/studentportaal/BackEnd-Bijbaan">Codeclimate
+      Back end</a>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <p class="text-inside-grid">
+      Canvas group and course
+    </p>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <a color="accent" mat-raised-button href="https://fhict.instructure.com/groups/60864">Canvas groep</a>
+  </mat-grid-tile>
+</mat-grid-list>
+<h2>Applicaties</h2>
+<mat-grid-list class="grid" cols="2" rowHeight="90px">
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <p class="text-inside-grid">
+      Hoofd front end applicatie
+    </p>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <a color="accent" mat-raised-button href="https://pts6-bijbaan.appspot.com/">Jobby!</a>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+      <p class="text-inside-grid">
+        Backend API
+      </p>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+      <a color="accent" mat-raised-button href="https://api-dot-pts6-bijbaan.appspot.com/">API</a>
+    </mat-grid-tile>
+  </mat-grid-list>

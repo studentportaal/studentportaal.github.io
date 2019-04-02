@@ -1,0 +1,18 @@
+a {
+    min-width: 13rem;
+}
+
+.text-inside-grid {
+    position: absolute;
+    left: 10px;
+}
+
+.grid {
+    max-width: 40rem;
+    margin: 0;
+    padding-right: 0; 
+} 
+
+mat-grid-tile {
+    border-bottom: 1px rgb(61, 59, 59) solid;
+}
