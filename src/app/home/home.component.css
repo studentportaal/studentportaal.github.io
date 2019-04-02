@@ -16,3 +16,7 @@ a {
 mat-grid-tile {
     border-bottom: 1px rgb(61, 59, 59) solid;
 }
+
+.example-tab-icon {
+  margin-right: 8px;
+}
