@@ -62,19 +62,17 @@ THE SOFTWARE.
 
 @angular/material/button
 
-@angular/material/core
-
 @angular/material/datepicker
 
 @angular/material/dialog
 
-@angular/material/divider
+@angular/material/grid-list
 
 @angular/material/icon
 
-@angular/material/list
-
 @angular/material/snack-bar
+
+@angular/material/tabs
 
 @angular/material/toolbar
 
